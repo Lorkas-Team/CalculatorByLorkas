@@ -58,13 +58,6 @@ public class JCalculator extends javax.swing.JFrame {
         });
 
         jNumber7.setText("7");
-        jNumber7.setName("number1"); // NOI18N
-        jNumber7.setOpaque(false);
-        jNumber7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jNumber7ActionPerformed(evt);
-            }
-        });
 
         jNumber4.setText("4");
 
@@ -172,6 +165,9 @@ public class JCalculator extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jNumber7.getAccessibleContext().setAccessibleName("");
+        jNumber7.getAccessibleContext().setAccessibleDescription("");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -195,10 +191,6 @@ public class JCalculator extends javax.swing.JFrame {
     private void jTextActionPerformed(ActionEvent evt) {//GEN-FIRST:event_jTextActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextActionPerformed
-
-    private void jNumber7ActionPerformed(ActionEvent evt) {//GEN-FIRST:event_jNumber7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jNumber7ActionPerformed
 
     /**
      * @param args the command line arguments
