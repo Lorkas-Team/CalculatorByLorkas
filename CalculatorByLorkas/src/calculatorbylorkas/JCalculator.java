@@ -5,6 +5,8 @@
  */
 package calculatorbylorkas;
 
+import java.awt.event.ActionEvent;
+
 /**
  *
  * @author horto
@@ -27,23 +29,23 @@ public class JCalculator extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jText = new javax.swing.JTextField();
-        jNumber7 = new javax.swing.JButton();
-        jNumber4 = new javax.swing.JButton();
-        jNumber1 = new javax.swing.JButton();
-        jNumber8 = new javax.swing.JButton();
-        jNumber9 = new javax.swing.JButton();
-        jNumber5 = new javax.swing.JButton();
-        jNumber2 = new javax.swing.JButton();
-        jNumber6 = new javax.swing.JButton();
-        jNumber3 = new javax.swing.JButton();
-        jNumber0 = new javax.swing.JButton();
-        jMultiplication = new javax.swing.JButton();
-        jSubtraction = new javax.swing.JButton();
-        jPlus = new javax.swing.JButton();
-        jEnter = new javax.swing.JButton();
-        jDivision = new javax.swing.JButton();
+        javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
+        javax.swing.JTextField jText = new javax.swing.JTextField();
+        javax.swing.JButton jNumber7 = new javax.swing.JButton();
+        javax.swing.JButton jNumber4 = new javax.swing.JButton();
+        javax.swing.JButton jNumber1 = new javax.swing.JButton();
+        javax.swing.JButton jNumber8 = new javax.swing.JButton();
+        javax.swing.JButton jNumber9 = new javax.swing.JButton();
+        javax.swing.JButton jNumber5 = new javax.swing.JButton();
+        javax.swing.JButton jNumber2 = new javax.swing.JButton();
+        javax.swing.JButton jNumber6 = new javax.swing.JButton();
+        javax.swing.JButton jNumber3 = new javax.swing.JButton();
+        javax.swing.JButton jNumber0 = new javax.swing.JButton();
+        javax.swing.JButton jMultiplication = new javax.swing.JButton();
+        javax.swing.JButton jSubtraction = new javax.swing.JButton();
+        javax.swing.JButton jPlus = new javax.swing.JButton();
+        javax.swing.JButton jEnter = new javax.swing.JButton();
+        javax.swing.JButton jDivision = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -190,11 +192,11 @@ public class JCalculator extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextActionPerformed
+    private void jTextActionPerformed(ActionEvent evt) {//GEN-FIRST:event_jTextActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextActionPerformed
 
-    private void jNumber7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jNumber7ActionPerformed
+    private void jNumber7ActionPerformed(ActionEvent evt) {//GEN-FIRST:event_jNumber7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jNumber7ActionPerformed
 
@@ -235,22 +237,5 @@ public class JCalculator extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jDivision;
-    private javax.swing.JButton jEnter;
-    private javax.swing.JButton jMultiplication;
-    private javax.swing.JButton jNumber0;
-    private javax.swing.JButton jNumber1;
-    private javax.swing.JButton jNumber2;
-    private javax.swing.JButton jNumber3;
-    private javax.swing.JButton jNumber4;
-    private javax.swing.JButton jNumber5;
-    private javax.swing.JButton jNumber6;
-    private javax.swing.JButton jNumber7;
-    private javax.swing.JButton jNumber8;
-    private javax.swing.JButton jNumber9;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JButton jPlus;
-    private javax.swing.JButton jSubtraction;
-    private javax.swing.JTextField jText;
     // End of variables declaration//GEN-END:variables
 }

@@ -16,6 +16,9 @@ public class CalculatorByLorkas {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        JCalculator CAL = new JCalculator() ;
+        CAL.setVisible(true);
+        
     }
     
 }
