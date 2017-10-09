@@ -6,7 +6,7 @@ import java.awt.event.KeyEvent;
 import javax.swing.*;
 
 public class JCalculator extends javax.swing.JFrame {
-
+    //comment
     public JCalculator() {
         initComponents();
         setUp();
