@@ -18,7 +18,7 @@ import javax.swing.JTextField;
  *
  */
 public class CalculatorController {
-    //lord
+    //lord1
     
     private JCalculator view;
     private JTextField textIO;
