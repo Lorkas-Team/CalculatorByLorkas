@@ -28,8 +28,8 @@ public class CalculatorController {
         this.view = view;
         textIO = (this.view).getIO();
         
-        //actionsSetUp();
-        //keysActionsSetUp();
+        actionsSetUp();
+        keysActionsSetUp();
         
         (this.view).setVisible(true);
     }
