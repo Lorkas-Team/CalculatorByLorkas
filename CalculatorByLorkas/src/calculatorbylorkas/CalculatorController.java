@@ -19,7 +19,7 @@ import javax.swing.JTextField;
  * 
  */
 public class CalculatorController {
-    //lordopoulos master
+    //master plus lord
     
     private JCalculator view;
     private JTextField textIO;
