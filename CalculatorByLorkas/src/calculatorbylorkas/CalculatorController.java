@@ -18,7 +18,7 @@ import javax.swing.JTextField;
  *
  */
 public class CalculatorController {
-    //master plus lord
+    
     
     private JCalculator view;
     private JTextField textIO;
@@ -32,8 +32,6 @@ public class CalculatorController {
         
         (this.view).setVisible(true);
     }
-
-    //
 
     private void keysActionsSetUp() {
 
@@ -130,6 +128,30 @@ public class CalculatorController {
             }
         });
         
+        view.addActionPlus(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setMathAction("+");
+            }
+        });
+        view.addActionMinus(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setMathAction("-");
+            }
+        });
+        view.addActionMult(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setMathAction("*");
+            }
+        });
+        view.addActionDiv(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setMathAction("/");
+            }
+        });
         
          
      }
@@ -197,4 +219,26 @@ public class CalculatorController {
         textIO.setText(textIO.getText() + String.valueOf(value));
     }
 
+
+    
+
+    private void setMathAction(String action) {
+
+        if (textIO.getText().isEmpty() && !action.equals("-")) {
+            return;
+        }
+        if (textIO.getText().length() == 1 && textIO.getText().equals("-")) {
+            return;
+        }
+
+        String text = textIO.getText();
+        if (text.endsWith("/") || text.endsWith("*") || text.endsWith("+") || text.endsWith("-")) {
+            text = text.substring(0, text.length() - 1);
+        }
+        if (text.endsWith(".")) {
+            text = text.substring(0, text.length() - 1);
+        }
+
+        textIO.setText(text + action);
+    }
 }
