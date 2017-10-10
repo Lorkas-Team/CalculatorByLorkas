@@ -12,19 +12,18 @@ import javax.swing.JTextField;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author lorkas
- * 
+ *
  */
 public class CalculatorController {
     //master plus lord
     
     private JCalculator view;
     private JTextField textIO;
-            
-    public CalculatorController(JCalculator view){
+
+    public CalculatorController(JCalculator view) {
         this.view = view;
         textIO = (this.view).getIO();
         
@@ -33,9 +32,11 @@ public class CalculatorController {
         
         (this.view).setVisible(true);
     }
-    
+
+    //
+
     private void keysActionsSetUp() {
-    
+
     }
     
     
